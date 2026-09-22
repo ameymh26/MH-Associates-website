@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Services — MH Associates</title>
+<meta name="description" content="Advisory services from MH Associates: Accounts, Finance, Costing, Audit, GST, Income Tax and HR.">
+<link rel="icon" href="images/logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,500;8..60,600;8..60,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- ============ HEADER ============ -->
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="index.html" class="brand">
+      <img class="brand-mark" src="images/logo.png" alt="MH Associates logo">
+      <span class="brand-text">
+        <span class="fname">MH Associates</span>
+        <span class="ftag">Complete Commercial Solution</span>
+      </span>
+    </a>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation"><span></span></button>
+    <nav class="main-nav" id="mainNav">
+      <a href="index.html">Home</a>
+      <a href="services.html" class="active">Services</a>
+      <a href="about.html">About Us</a>
+      <a href="contact.html">Contact Us</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+  <div class="page-hero">
+    <div class="container">
+      <h1>Advisory services</h1>
+      <p>Seven functional areas, covered end to end — from day-to-day bookkeeping to board-level financial strategy.</p>
+    </div>
+  </div>
+
+  <section>
+    <div class="container service-detail-grid">
+      <!-- Both filled by js/main.js from js/services-data.js -->
+      <div class="service-nav" id="serviceNav"></div>
+      <div id="servicePanels"></div>
+    </div>
+  </section>
+
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer class="site-footer">
+  <div class="footer-top">
+    <div class="container footer-grid">
+
+      <div>
+        <img class="foot-brand-mark" src="images/logo.png" alt="MH Associates logo">
+        <div class="foot-firm-name">MH Associates</div>
+        <div class="foot-firm-tag">Complete Commercial Solution</div>
+        <a href="https://www.linkedin.com" target="_blank" rel="noopener" class="li-link">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.45 20.45h-3.55v-5.57c0-1.33-.02-3.04-1.85-3.04-1.86 0-2.15 1.45-2.15 2.95v5.66H9.35V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.45v6.29zM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12zM7.12 20.45H3.56V9h3.56v11.45z"/></svg>
+          Follow on LinkedIn
+        </a>
+      </div>
+
+      <div>
+        <h5>Quick links</h5>
+        <div class="foot-links">
+          <a href="index.html">Home</a>
+          <a href="services.html">Services</a>
+          <a href="about.html">About Us</a>
+          <a href="contact.html">Contact Us</a>
+        </div>
+      </div>
+
+      <div>
+        <h5>Get in touch</h5>
+        <div class="foot-contact-item">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.362 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.338 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+          <a href="tel:+918055917474">+91 80559 17474</a>
+        </div>
+        <div class="foot-contact-item">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M22 6l-10 7L2 6" stroke-linecap="round" stroke-linejoin="round"/><path d="M2 6h20v12a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V6z"/></svg>
+          <a href="mailto:mhassociates2026@gmail.com">mhassociates2026@gmail.com</a>
+        </div>
+        <div class="foot-contact-item">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M21 10c0 6-9 12-9 12s-9-6-9-12a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          <span>Shop No. 6, Kunal Market, Chafekar Chowk, Chinchwadgaon, Pune – 411 033</span>
+        </div>
+      </div>
+
+      <div>
+        <h5>Find us</h5>
+        <div class="foot-map">
+          <div class="pin">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C7.6 2 4 5.6 4 10c0 6 8 12 8 12s8-6 8-12c0-4.4-3.6-8-8-8zm0 11a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/></svg>
+            <div class="pin-label">Chinchwadgaon, Pune</div>
+          </div>
+        </div>
+        <p class="foot-map-caption">Kunal Market, Chafekar Chowk — Pune 411 033, Maharashtra</p>
+      </div>
+
+    </div>
+  </div>
+  <div class="container footer-bottom">
+    <span>© <span id="year"></span> MH Associates. All rights reserved.</span>
+    <span>Cost &amp; Management Accountancy · Since 2026</span>
+  </div>
+</footer>
+
+<script src="js/services-data.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
